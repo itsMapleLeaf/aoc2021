@@ -1,4 +1,4 @@
-package aoc2021
+package aoc2021.helpers
 
 import java.io.File
 

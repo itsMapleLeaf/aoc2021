@@ -1,8 +1,8 @@
-package aoc2021
+package aoc2021.helpers
 
-abstract class Solution {
-  protected open fun part1() = "not implemented"
-  protected open fun part2() = "not implemented"
+interface Solution {
+  fun part1() = "not implemented"
+  fun part2() = "not implemented"
 
   fun run() {
     println("${this.javaClass.simpleName} Part 1: ${part1()}")
