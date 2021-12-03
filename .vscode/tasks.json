@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "gradle",
+      "id": "/home/maple/dev/aoc2021app:runapp",
+      "script": "app:run",
+      "description": "Runs this project as a JVM application",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "project": "app",
+      "buildFile": "/home/maple/dev/aoc2021/app/build.gradle",
+      "rootProject": "aoc2021",
+      "projectFolder": "/home/maple/dev/aoc2021",
+      "workspaceFolder": "/home/maple/dev/aoc2021",
+      "args": "",
+      "javaDebug": false,
+      "problemMatcher": ["$gradle"],
+      "label": "gradle: app:run"
+    }
+  ]
+}
