@@ -2,11 +2,11 @@ package aoc2021.solutions
 
 import aoc2021.helpers.Resources
 import aoc2021.helpers.Solution
-import aoc2021.helpers.nonEmptyLines
+import aoc2021.helpers.readNonEmptyLines
 
 
-class Day1 : Solution {
-    private val input = Resources.file("day1.txt").nonEmptyLines().map { it.toInt() }
+object Day1 : Solution {
+    private val input = Resources.file("day1.txt").readNonEmptyLines().map { it.toInt() }
 
     // private val input = "199,200,208,210,200,207,240,269,260,263".split(",").map { it.toInt() }
 

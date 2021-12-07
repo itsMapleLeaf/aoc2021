@@ -3,7 +3,7 @@ package aoc2021.solutions
 import aoc2021.helpers.Point
 import aoc2021.helpers.Resources
 import aoc2021.helpers.Solution
-import aoc2021.helpers.nonEmptyLines
+import aoc2021.helpers.readNonEmptyLines
 
 // private val input = """forward 5
 // down 5
@@ -13,8 +13,8 @@ import aoc2021.helpers.nonEmptyLines
 // forward 2""".split("\n")
 
 
-class Day2 : Solution {
-    private val input = Resources.file("day2.txt").nonEmptyLines()
+object Day2 : Solution {
+    private val input = Resources.file("day2.txt").readNonEmptyLines()
     private val commands = input.map(SubmarineCommand.Companion::fromString)
 
     override fun part1(): String {
